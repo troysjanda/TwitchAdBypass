@@ -17,6 +17,8 @@ Known Extension Conflicts
 * Purple AdBlock — may conflict if both are active. Disable one.
 * AdGuard Extra — operates at a different layer, can be used alongside without conflict
 
+**Note** if you perfer to have the scripts default to lower resolution you can set "localStorage.setItem('twitchAdSolutions_preferLowQualityBackup', 'false');" without quotes in the browser console and set vaule to true.
+
 Credit goes to the following people, https://github.com/ryanbr/TwitchAdSolutions & https://github.com/pixeltris/TwitchAdSolutions
 
 **Disclaimer** Authors, this Repot and it's owner are not responsible for breakage unrelasted to the use of this script. This is an opensource solution that can and must be read in its entireity before installing and using.
