@@ -1,5 +1,5 @@
 # TwitchAdBypass
-Userscripot to bypass ads on Twitch without loss of resolution. Please not there can be a slight delay at start of stream, and during ad trigger while script strips ads for the available streams.
+Userscript to bypass ads on Twitch without loss of resolution. Please not there can be a slight delay at start of stream, and during ad trigger while script strips ads for the available streams.
 
 Best used with the following Userscript managers:
 
@@ -7,7 +7,7 @@ Best used with the following Userscript managers:
 * https://www.tampermonkey.net/
 * https://apps.apple.com/us/app/userscripts/id1463298887
 
-**This userscrpt does not work with Greasemonkey.**
+**This userscript does not work with Greasemonkey.**
 
 Known Extension Conflicts
 
@@ -17,8 +17,8 @@ Known Extension Conflicts
 * Purple AdBlock — may conflict if both are active. Disable one.
 * AdGuard Extra — operates at a different layer, can be used alongside without conflict
 
-**Note** if you perfer to have the scripts default to lower resolution you can set "localStorage.setItem('twitchAdSolutions_preferLowQualityBackup', 'false');" without quotes in the browser console and set vaule to true.
+**Note** if you prefer to have the scripts default to lower resolution you can set "localStorage.setItem('twitchAdSolutions_preferLowQualityBackup', 'false');" without quotes in the browser console and set value to true.
 
 Credit goes to the following people, https://github.com/ryanbr/TwitchAdSolutions & https://github.com/pixeltris/TwitchAdSolutions
 
-**Disclaimer** Authors, this Repot and it's owner are not responsible for breakage unrelasted to the use of this script. This is an opensource solution that can and must be read in its entireity before installing and using.
+**Disclaimer** Authors, this Repot and its owner are not responsible for breakage unrelated to the use of this script. This is an opensource solution that can and must be read in its entirety before installing and using.
