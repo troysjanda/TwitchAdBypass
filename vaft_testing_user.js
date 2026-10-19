@@ -2972,12 +2972,14 @@
         // Issue #255 hardening: the hidden side now has its own resume guard (see
         // scheduleBackgroundResume), and the focus-side resume is verified — a rejected play()
         // here used to strand the player paused ("still frozen when I come back").
-        let wasVideoPlaying = true;
+         let wasVideoPlaying = true;
+        let hidden = document.lookupGetter('hidden');
+        let webkitHidden = document.lookupGetter('webkitHidden');
         const focusResumeTimers = [];
         const visibilityChange = () => {
             const videos = document.getElementsByTagName('video');
             if (videos.length === 0) return;
-            if (document.hidden) {
+            if (hidden.apply(document) === true || (webkitHidden && webkitHidden.apply(document) === true)) {
                 wasVideoPlaying = !videos[0].paused && !videos[0].ended;
                 return;
             }
